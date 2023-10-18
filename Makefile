@@ -1,4 +1,7 @@
-.PHONY: dev init
+.PHONY: dev init test
+
+test:
+	pytest -sv
 
 # Initialize development environment
 init:
